@@ -526,7 +526,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 197550351}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 705779428}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: onClickReturn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &197550351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,7 +658,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 214521997}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1993444015}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: onClickReturn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &214521997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1213,7 +1237,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 486688438}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 884204415}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: onClickReturn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &486688438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1395,6 +1431,7 @@ GameObject:
   - component: {fileID: 705779426}
   - component: {fileID: 705779425}
   - component: {fileID: 705779424}
+  - component: {fileID: 705779428}
   m_Layer: 0
   m_Name: MAINCanvas
   m_TagString: Untagged
@@ -1489,6 +1526,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &705779428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705779423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75111a91b94d8141bcae41523647a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 705779426}
+  playCanvas: {fileID: 884204413}
+  optionsCanvas: {fileID: 1993444013}
+  creditsCanvas: {fileID: 126888949}
+  buttons: {fileID: 522803987}
 --- !u!1 &842686416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1660,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 859939469}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 705779428}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: onClickPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &859939469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1657,6 +1723,7 @@ GameObject:
   - component: {fileID: 884204413}
   - component: {fileID: 884204412}
   - component: {fileID: 884204411}
+  - component: {fileID: 884204415}
   m_Layer: 5
   m_Name: PLAYCanvas
   m_TagString: Untagged
@@ -1749,6 +1816,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &884204415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884204410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75111a91b94d8141bcae41523647a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 705779426}
+  playCanvas: {fileID: 884204413}
+  optionsCanvas: {fileID: 1993444013}
+  creditsCanvas: {fileID: 126888949}
+  buttons: {fileID: 522803987}
 --- !u!1 &925183451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,7 +2064,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1049605904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 705779428}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: onClickOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1049605904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2175,7 +2271,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1315478829}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 705779428}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: onClickCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1315478829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,7 +2754,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1604221789}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 705779428}
+        m_TargetAssemblyTypeName: CanvasController, Assembly-CSharp
+        m_MethodName: exitApp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1604221789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3123,6 +3243,7 @@ GameObject:
   - component: {fileID: 1993444013}
   - component: {fileID: 1993444012}
   - component: {fileID: 1993444011}
+  - component: {fileID: 1993444015}
   m_Layer: 5
   m_Name: OPTIONSCanvas
   m_TagString: Untagged
@@ -3215,6 +3336,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1993444015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993444010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75111a91b94d8141bcae41523647a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 705779426}
+  playCanvas: {fileID: 884204413}
+  optionsCanvas: {fileID: 1993444013}
+  creditsCanvas: {fileID: 126888949}
+  buttons: {fileID: 522803987}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
