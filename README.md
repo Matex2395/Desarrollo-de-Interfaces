@@ -1,5 +1,4 @@
-  # SCP: Outbreak - Prototype
-
+  # Desarrollo de Interfaces
 Este repositorio contiene el proyecto en Unity de la Evaluación de Tercer Progreso de la materia de "Desarrollo de Videojuegos".
 
 ## Requisitos Previos
