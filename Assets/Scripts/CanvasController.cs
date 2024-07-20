@@ -14,11 +14,13 @@ public class CanvasController : MonoBehaviour
     public GameObject buttons;
     public AudioSource confirmSFX;
     public AudioSource cancelSFX;
+    public GameObject logo;
 
     public void onClickPlay()
     {
         //Time.timeScale = 0; // Tiene problemas con las animaciones de los botones
         buttons.SetActive(false);
+        logo.SetActive(false);
         confirmSFX.Play();
         playCanvas.gameObject.SetActive(true);
     }
@@ -27,6 +29,7 @@ public class CanvasController : MonoBehaviour
     {
         //Time.timeScale = 0;
         buttons.SetActive(false);
+        logo.SetActive(false);
         confirmSFX.Play();
         optionsCanvas.gameObject.SetActive(true);
     }
@@ -44,6 +47,7 @@ public class CanvasController : MonoBehaviour
         mainCanvas.gameObject.SetActive(true);
         //Time.timeScale = 1;
         buttons.SetActive(true);
+        logo.SetActive(true);
         cancelSFX.Play();
         playCanvas.gameObject.SetActive(false);
         optionsCanvas.gameObject.SetActive(false);
